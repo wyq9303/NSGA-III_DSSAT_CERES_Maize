@@ -606,7 +606,7 @@ NGEN = 50                # generations
 CXPB = 1.0                 # crossover prob for varAnd
 MUTPB = 1.0                # mutation prob for varAnd
 # Use a fixed seed so that the optimization run is reproducible and traceable.
-DEFAULT_RANDOM_SEED = 2025
+DEFAULT_RANDOM_SEED = 202501
 
 # ==== [ADD] 归一化HV与早停配置 ====
 # 固定归一化盒(ideal/nadir)。建议用你对作物系统的经验范围；若暂时未知，可先自动估计再冻结（见 main()）。
